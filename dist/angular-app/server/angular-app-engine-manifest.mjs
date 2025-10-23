@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://trivikram-coder.github.io/todo-app-angular',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },

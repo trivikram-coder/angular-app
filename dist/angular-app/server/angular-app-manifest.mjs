@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://trivikram-coder.github.io/todo-app-angular/',
+  baseHref: '/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/todo-app-angular"
+    "route": "/"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 544, hash: 'b3e951b3706d1e0b2a4591c65429d3099fed2aa15734007a2311615f16e2a4bf', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1057, hash: '3fb9bbbaa3e36be74486ca1f1ebf064f043a8a34dca95419a58ec000862ae8a0', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 1597, hash: '6e91d17556dcc7c69c879c7167116b1119ffcb0823ed5ed220374fdf42927ae0', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 1174, hash: 'd8d25ce1b17825eb6fe334c528e40ca423b247584092415b2bdf9f62018cc70a', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1576, hash: 'e99afea5bd0b83eadd61841d0a04a744dcd964364937aeb12abff66e7328d51a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 4478, hash: '7b7c88d97bb37d15c3360564312ecde7cebc0ac282d710ed3540bbd782b9981f', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'styles-USLPTMVG.css': {size: 57, hash: 'APJ5sWkotCA', text: () => import('./assets-chunks/styles-USLPTMVG_css.mjs').then(m => m.default)}
   },
 };
