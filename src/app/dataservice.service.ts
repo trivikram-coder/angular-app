@@ -6,7 +6,7 @@ import {Observable} from 'rxjs'
 })
 
 export class DataserviceService {
-  private baseUrl="https://todolistserver-a7ss.onrender.com"
+  private baseUrl="https://todolistserver-xsyr.onrender.com"
   constructor(private http:HttpClient) { }
   getTasks():Observable<any>{
     return this.http.get(`${this.baseUrl}/tasks`);
