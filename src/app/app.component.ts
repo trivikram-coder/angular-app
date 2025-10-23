@@ -32,7 +32,7 @@ ngOnInit(){
     }
    
     this.dataService.addTask(this.task).subscribe((newTask) => {
-      this.tasks=Array.isArray(newTask)?newTask:newTask||[]; // add task on top
+      this.tasks.unshift(newTask) // add task on top
       this.task = '';
       
     });
